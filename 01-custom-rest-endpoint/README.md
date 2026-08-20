@@ -45,6 +45,25 @@ We will use:
 ├── README.md
 └── custom-endpoint.php
 ```
+## API Test Result
+
+The custom REST API endpoint was tested successfully using Postman.
+
+**Request**
+
+```http
+GET /wp-json/ibrahim/v1/message
+```
+
+**Result**
+
+- HTTP Status: `200 OK`
+- Response Format: `JSON`
+- Endpoint successfully returned the expected response.
+
+### Postman Test
+
+![Custom WordPress REST API tested successfully in Postman](./screenshots/postman-success.png)
 
 ## Purpose
 
