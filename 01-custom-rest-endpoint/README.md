@@ -38,7 +38,7 @@ We will use:
 - A custom callback function
 - `WP_REST_Response`
 
-## Files
+## Example Structure
 
 ```text
 01-custom-rest-endpoint/
